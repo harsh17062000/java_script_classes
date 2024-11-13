@@ -22,3 +22,16 @@ console.log(area(2
     
 ))
 
+
+// ....... local data storage in browser
+localStorage.setItem("name","harsh")
+localStorage.setItem("names","dhruv")
+
+localStorage.getItem("name");
+
+localStorage.removeItem("names");
+
+localStorage.clear("names")
+
+
+//port,domain,protocal change then data will not shown.
